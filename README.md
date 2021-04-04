@@ -20,7 +20,7 @@ You can think of the board as having 2-dimensional coordinates. Your function wo
 
 4. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square. Output what that full path looks like, e.g.:
 
-  >   ```knight_moves([3,3],[4,3])```
+  >   ```knight_moves([3,3],[4,3])\n```
   >   ```=> You made it in 3 moves!  Here's your path:```
   >   ```  [3,3]```
   >   ```  [4,5]```
