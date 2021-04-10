@@ -1,4 +1,4 @@
-The Odin Project's Full Stack Ruby project Knight Travails
+The Odin Project's Full Stack Ruby project Knights Travails
 
 # Assignment
 
