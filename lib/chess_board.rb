@@ -4,10 +4,8 @@ require_relative 'knight'
 
 # Class defining the chessboard
 class ChessBoard
-  attr_accessor :board
-
   def initialize
-    @board = Array.new(8) { Array.new(8, nil) }
+    # @board = Array.new(8) { Array.new(8, nil) }
   end
 
   def knight_moves(start, destination)
@@ -16,6 +14,8 @@ class ChessBoard
     make_history(current, history, start)
     print_knight_moves(history, start, destination)
   end
+
+  private
 
   def make_tree(start, destination)
     queue = [Knight.new(start)]

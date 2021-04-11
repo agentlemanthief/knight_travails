@@ -2,7 +2,8 @@
 
 # Class defining the Knight node
 class Knight
-  attr_accessor :position, :children, :parent
+  attr_reader :position
+  attr_accessor :children, :parent
 
   MOVES = [[1, 2], [2, 1], [-1, -2], [-2, -1], [1, -2], [-1, 2], [2, -1], [-2, 1]].freeze
 
